@@ -70,6 +70,11 @@ body {
    
 }
 
+.conteiner-flx {
+   display: flex;
+   align-items: center;
+}
+
 /* Site Buttom */
 .base-button {
    display: block;
@@ -137,6 +142,11 @@ body {
 }
 
 .link-logos {
+   display: block;
+   margin-right: 76px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+
    color: var(--radio-buttom-text-color);
    font-family: 'Raleway', sans-serif;
    /* font-style: normal; */
@@ -168,6 +178,19 @@ body {
 
 
 /* Menu  */
+.site-nav {
+   display: flex;
+   /* gap: 40px; */
+}
+
+.site-nav .item {
+   margin-right: 40px;
+}
+
+.site-nav .item:last-child {
+   margin: 0;
+}
+
 .list {
    /* color: var(--title-text-color-basic); */
    /* font-style: normal;
@@ -182,6 +205,10 @@ body {
 }
 
 .list .link-item {
+   display: block;
+   padding-top: 24px;
+   padding-bottom: 24px;
+
    color: var(--title-text-color-basic);
    font-style: normal;
    font-weight: 500;
@@ -203,16 +230,25 @@ body {
 }
 
 .adrs-menu {
+   margin-left: auto;
    font-style: normal;
 }
 
-/* No use  */
-.adres-main-menu {
-   list-style: none;
+.adrs-menu-list {
+   display: flex;
+   
 }
-/* No use  */
+
+.adrs-menu-list .item-asdr+ .item-asdr{
+   margin-left: 40px;
+}
+
 
 .adrs-menu .link-adrs {
+   display: block;
+   padding-top: 24px;
+   padding-bottom: 24px;
+
    color: var(--body-text-color);
    font-style: normal;
    font-weight: 400;
@@ -222,6 +258,10 @@ body {
    letter-spacing: 0.02em;
    text-decoration: none;
 }
+
+/* .adrs-menu .link-adrs:last-child {
+   margin: 0;
+} */
 
 .adrs-menu .link-adrs:hover,
 .adrs-menu .link-adrs:focus {
