@@ -77,15 +77,15 @@ body {
 
 /* Site Buttom */
 .base-button {
-   display: block;
+   display: inline-block;
    box-sizing: border-box;
+   padding: 16px 32px;
+   /* margin: 0 auto; */
+
    min-width: 169px;
    height: 56px;
    border-radius: 4px;
    border: 1px solid transparent;
-   
-   padding: 16px 32px;
-   margin: 0 auto;
 
    font-family: inherit;
    background-color: var(--radio-buttom-text-color);
@@ -96,8 +96,9 @@ body {
    line-height: 1.5;
    /* align-items: center;*/
    letter-spacing: 0.04em;
-   cursor: pointer;
    text-align: center;
+
+   cursor: pointer;
 }
 
 .base-button:hover,
@@ -174,7 +175,6 @@ body {
    color: var(--color-cloud);
    line-height: 1.17;
 }
-
 
 
 /* Menu  */
@@ -300,12 +300,27 @@ body {
    background-color: var(--color-cloud);
 }
 
+.section-wrk-dir {
+   display: flex;
+   justify-content: space-between;
+}
+
+.section-wrk-dir .item-wrk {
+   width: 264px;
+}
+
 .section .card {
    background-color: var(--color-white);
+   text-align: center;
 }
 
 .section-title {
    color: var(--title-text-color-basic);
+}
+
+.img-ds-blok {
+   margin-bottom: 32px;
+   display: block;
 }
 
 .section-title-sz-one {}
@@ -321,6 +336,10 @@ body {
    letter-spacing: 0.02em;
    text-align: center;
    text-transform: capitalize;
+}
+
+.section-title-sz-two.base-cont {
+   margin-bottom: 72px;
 }
 
 .section-title-sz-three {
