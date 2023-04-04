@@ -371,6 +371,7 @@ body {
    margin-right: 24px;
    margin-bottom: 48px;
    border-bottom: 1px solid var(--body-text-color);
+   
 }
 
 .lst-work-exmpl .lst-card:nth-child(3n) {
