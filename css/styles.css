@@ -53,6 +53,19 @@ body {
 }
 
 /* Reset Param  */
+.list {
+   /* color: var(--title-text-color-basic); */
+   /* font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   text-decoration: none; */
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
 .list-rst {
    list-style: none;
 }
@@ -118,11 +131,11 @@ body {
 
 .filter-conteiner {
    display: flex;
-   /* margin: 0 auto; */
-   margin-top: 96px;
-   margin-bottom: 72px;
    justify-content: center;
-   /* width: 568px; */
+  padding-top: 96px;
+  padding-bottom: 72px;
+   /* margin-top: 96px;
+   margin-bottom: 72px; */
 }
 
 .filter-conteiner .item-flt {
@@ -215,18 +228,9 @@ body {
    margin: 0;
 }
 
-.list {
-   /* color: var(--title-text-color-basic); */
-   /* font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   text-decoration: none; */
-   padding: 0;
-   margin: 0;
-   list-style: none;
-}
+/* list res01 */
+
+
 
 .list .link-item {
    display: block;
@@ -352,6 +356,25 @@ body {
    margin: 0;
 }
 
+.lst-work-exmpl {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.lst-work-exmpl .lst-card {
+   width: 360px;
+   margin-right: 24px;
+   margin-bottom: 48px;
+}
+
+.lst-work-exmpl .lst-card:nth-child(3n) {
+   margin-right: 0;
+}
+
+.lst-work-exmpl 
+.lst-card:nth-last-child(-n+3) {
+   margin-bottom: 0;
+}
 
 .section-title-sz-one {}
 
@@ -404,14 +427,27 @@ body {
 .footer-set {
    background-color: var(--title-text-color-basic);
    color: var(--color-cornf-lower);
+   
 }
 
 .footer-parag {
+   margin: 0;
+   padding: 0;
+   padding-bottom: 100px;
    width: 264px;
    color: var(--color-cloud);
 }
 
+.footer-parag.logo-mrg {
+   padding-bottom: 0;
+}
+
 .footer-link-logos {
+   display: block;
+   margin: 0;
+   margin-bottom: 18px;
+    padding-top: 100px;
+
    color: var(--radio-buttom-text-color);
    font-family: 'Raleway', sans-serif;
    /* font-style: normal; */
