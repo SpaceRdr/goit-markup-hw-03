@@ -85,12 +85,29 @@ body {
    width: 1158px;
    padding: 0 15px;
    margin: 0 auto;
-   
+}
+
+.conteiner.hero-pls {
+   padding-top: 188px;
+   padding-bottom: 188px;
 }
 
 .conteiner-flx {
    display: flex;
    align-items: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Site Buttom */
@@ -304,7 +321,7 @@ body {
 
 /* Section Main Slogan H1  */
 .hero {
-   margin-bottom: 120px;
+   /* margin-bottom: 120px; */
    background-color: var(--title-text-color-basic);
    text-align: center;
 }
@@ -312,6 +329,9 @@ body {
 .hero-title {
    margin-top: 0;
    margin-bottom: 48px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 496px;
 
    color: var(--color-white);
    font-weight: 700;
@@ -323,9 +343,12 @@ body {
 
 /* Main Content  */
 .section {
-   /* padding-top: 120px; */
    padding-bottom: 120px;
    /* color: var(--body-text-color); */
+}
+
+.section.sect-pdng-tp {
+   padding-top: 120px;
 }
 
 .section.bkg-cloud {
@@ -343,8 +366,12 @@ body {
 }
 
 .section .card {
+   padding-bottom: 32px;
+
    background-color: var(--color-white);
    text-align: center;
+   border: 0px;
+   border-radius: 0 0 4px 4px;
 }
 
 .section-title {
@@ -425,7 +452,7 @@ body {
 }
 
 .section-parag.in-card {
-   margin-bottom: 32px;
+   /* margin-bottom: 32px; */
 }
 
 
