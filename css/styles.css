@@ -197,7 +197,7 @@ body {
 
 /* logo  */
 .link {
-
+   
    text-decoration: none;
 }
 
@@ -358,11 +358,23 @@ body {
 
 .section-wrk-dir {
    display: flex;
-   justify-content: space-between;
+   /* flex-wrap: wrap; */
+   /* justify-content: space-between; */
+   /* justify-content: center; */
 }
 
 .section-wrk-dir .item-wrk {
-   width: 264px;
+   /* width: 264px; */
+   width: calc((100%-72px)/4);
+   margin-right: 24px;
+}
+
+.section-wrk-dir .item-wrk:nth-child(4n) {
+   margin-right: 0;
+}
+
+.section-wrk-dir .item-wrk:nth-last-child(-n+4) {
+   margin-bottom: 0;
 }
 
 .section .card {
@@ -391,10 +403,12 @@ body {
 .lst-work-exmpl {
    display: flex;
    flex-wrap: wrap;
+  
 }
 
 .lst-work-exmpl .lst-card {
-   width: 360px;
+   /* width: 360px; */
+   width: calc((100%-80px)/3);
    margin-right: 24px;
    margin-bottom: 48px;
    border-bottom: 1px solid var(--body-text-color);
