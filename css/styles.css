@@ -27,7 +27,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  outline: 2px solid #01df01;
+  /* outline: 2px solid #01df01; */
 }
 
 /* Reset Param  */
