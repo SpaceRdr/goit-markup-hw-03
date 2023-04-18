@@ -414,6 +414,12 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.card-cont.pdn-wrk-ex {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
 .card-foto-sing {
   max-width: 360px;
   margin-right: 24px;
