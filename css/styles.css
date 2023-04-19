@@ -50,6 +50,10 @@ a {
   margin: 0;
 }
 
+a {
+  color: var(--body-text-color);
+}
+
 /* Global project settings */
 body {
   font-family: Roboto, sans-serif;
