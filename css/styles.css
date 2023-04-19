@@ -303,9 +303,9 @@ body {
 .section-slog {
   display: block;
   /* height: 600px; */
-  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
+  
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5) 20%,
