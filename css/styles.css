@@ -27,7 +27,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* outline: 2px solid #01df01; */
+  outline: 1px solid #01df01;
 }
 
 /* Reset Param  */
@@ -539,14 +539,18 @@ body {
 }
 
 .lst-work-exmpl .lst-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* width: 360px; */
-  /* width: calc((100%-48px) / 3); */
+  width: calc((100% - 48px) / 3);
   max-width: 360px;
-  /* flex-basis: calc((100%-48px) / 3); */
+  /* flex-basis: calc((100% - 48px) / 3); */
   margin-right: 24px;
   margin-bottom: 48px;
   padding-bottom: 32px;
-  gap: 48px 24px;
+  /* gap: 48px 24px; */
 
   background-color: var(--color-white);
   border: 1px solid var(--color-cornf-lower);
