@@ -272,8 +272,7 @@ body {
 }
 
 .item-mn-menu {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
   margin-right: 40px;
 }
 
@@ -282,11 +281,17 @@ body {
 }
 
 .lst-mn-menu .txt-mn-menu {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--title-text-color-bs);
   font-weight: 500;
 }
 
 .txt-mn-menu-adrs {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--body-text-color);
   font-style: normal;
 }
@@ -301,7 +306,7 @@ body {
 /* Section Main Slogan H1 */
 
 .section-slog {
-  display: block;
+  /* display: block; */
   /* height: 600px; */
   padding-top: 188px;
   padding-bottom: 188px;
